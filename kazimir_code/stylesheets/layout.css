@@ -1,0 +1,365 @@
+.back {
+    background-color: black;
+    min-height: 100vh;
+    width: 100%;
+}
+
+.container {
+    max-width: 1440px;
+    min-width: 320px;
+    margin: 0 auto;
+}
+
+.header-back {
+    background-color: #590E15;
+    height: auto;
+}
+
+.header-img1 {
+    background-image: url(/images/1.png);
+    width: 100%;
+    height: 950px;
+    position: relative;
+    z-index: 2;
+    background-repeat: no-repeat;
+}
+
+.header-img2 {
+    background-image: url(/images/star.png);
+    width: 100%;
+    height: 920px;
+    position: absolute;
+    top: 10px;
+    z-index: 1;
+    background-repeat: no-repeat;
+}
+
+.main-back {
+    background-color: #2E2D2B;
+    min-height: 150vh;
+}
+
+.ticket {
+    background-image: url(/images/2.png);
+    width: 165px;
+    height: 130px;
+    background-repeat: no-repeat;
+    position: relative;
+    background-size: cover;
+}
+
+.tickets-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: rotate(-4.24deg);
+    position: absolute;
+    left: 13%;
+    top: 1052px;
+}
+
+.tickets-wrapper2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    transform: rotate(-4.24deg);
+    position: absolute;
+    right: 15%;
+    top: 1122px;
+}
+
+.ticket__text1--1 {
+    font-family: Kazimir;
+    font-size: 79.4px;
+    line-height: 93.05px;
+    font-style: italic;
+    color: #590E15;
+    position: absolute;
+    top: 23px;
+    left: 23px;
+}
+
+.ticket__text1--2 {
+    font-family: Kazimir;
+    font-size: 79.4px;
+    font-style: italic;
+    font-weight: 700;
+    line-height: 113.7px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.ticket__text1--3 {
+    font-family: Kazimir;
+    font-size: 79.4px;
+    font-style: italic;
+    font-weight: 500;
+    line-height: 113.7px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.ticket__text1--4 {
+    font-family: Kazimir;
+    font-size: 79.4px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 113.7px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.ticket__text1--5 {
+    font-family: Kazimir;
+    font-size: 79.4px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 113.7px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.ticket__text2 {
+    font-family: Kazimir;
+    font-size: 11.06px;
+    font-weight: 300;
+    line-height: 15.83px;
+    color: #590E15;
+    transform: rotate(270deg);
+    position: absolute;
+    right: 2px;
+    top: 64px;
+}
+
+.ticket__text2--1 {
+    font-family: Kazimir;
+    font-size: 79.52px;
+    font-weight: 300;
+    line-height: 113.87px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.ticket__text2--2 {
+    font-family: Kazimir;
+    font-size: 79.52px;
+    font-weight: 400;
+    line-height: 113.87px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.ticket__text2--3 {
+    font-family: Kazimir;
+    font-size: 79.52px;
+    font-weight: 500;
+    line-height: 113.87px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.ticket__text2--4 {
+    font-family: Kazimir;
+    font-size: 79.52px;
+    font-weight: 700;
+    line-height: 113.87px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 15px;
+}
+
+.ticket__text2--5 {
+    font-family: Kazimir;
+    font-size: 79.52px;
+    font-weight: 900;
+    line-height: 113.87px;
+    color: #590E15;
+    position: absolute;
+    top: 20px;
+    left: 10px;
+}
+
+.big-ticket1 {
+    background-image: url(/images/3.png);
+    background-repeat: no-repeat;
+    width: 360.3px;
+    height: 654.13px;
+    transform: rotate(-17.22deg);
+    position: absolute;
+    top: 1234px;
+    left: 17%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    z-index: 2;
+}
+
+.big-ticket1__title {
+    font-family: Kazimir;
+    font-size: 26.63px;
+    font-weight: 700;
+    line-height: 21.57px;
+    color: #D4A44C;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.big-ticket1__title2 {
+    font-family: Kazimir;
+    font-size: 36.56px;
+    font-weight: 700;
+    line-height: 29.61px;
+    color: #D4A44C;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.big-ticket1__title2--span1 {
+    font-size: 36.56px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 29.61px;
+    letter-spacing: 0.18em;
+}
+
+.big-ticket1__title2--span2 {
+    font-size: 36.56px;
+    font-weight: 700;
+    line-height: 39.12px;
+}
+
+.big-ticket1__text {
+    font-family: Kazimir;
+    font-size: 22.84px;
+    font-weight: 400;
+    line-height: 11.42px;
+    color: #D4A44C;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.big-ticket2 {
+    background-image: url(/images/4.png);
+    width: 1085.87px;
+    height: 456.65px;
+    position: absolute;
+    top: 1350px;
+    right: 13%;
+    z-index: 1;
+    transform: rotate(4.48deg);
+}
+
+.big-ticket2__title {
+    font-family: Kazimir;
+    font-size: 57.64px;
+    font-weight: 300;
+    line-height: 46.69px;
+    letter-spacing: -0.03em;
+    color: #590E15;
+    position: absolute;
+    top: 70px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.big-ticket2__text {
+    font-family: Kazimir;
+    font-size: 24.88px;
+    font-weight: 700;
+    line-height: 20.15px;
+    letter-spacing: 0.32em;
+    color: #590E15;
+    position: absolute;
+    top: 117px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.big-ticket2__title2 {
+    font-family: Kazimir;
+    font-size: 76.38px;
+    font-weight: 900;
+    line-height: 61.87px;
+    letter-spacing: 0.08em;
+    color: #590E15;
+    position: absolute;
+    top: 137px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.big-ticket2__text2 {
+    font-family: Kazimir;
+    font-size: 25.03px;
+    font-weight: 300;
+    line-height: 20.28px;
+    letter-spacing: -0.03em;
+    color: #FEECC7;
+    position: absolute;
+    top: 217px;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.big-ticket2__text2--span {
+    font-size: 25.03px;
+    font-style: italic;
+    font-weight: 400;
+    line-height: 20.28px;
+    letter-spacing: -0.03em;
+}
+
+.big-ticket2-lists {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 35px;
+    position: absolute;
+    left: 50%;
+    transform: translateX(-50%);
+    top: 297px;
+}
+
+.big-ticket2-list {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.big-ticket2-list__title {
+    font-family: Kazimir;
+    font-size: 78.84px;
+    font-weight: 900;
+    line-height: 63.86px;
+    letter-spacing: 0.08em;
+    color: #590E15;
+}
+
+.big-ticket2-list__text {
+    font-family: Kazimir;
+    font-size: 28.94px;
+    font-weight: 300;
+    line-height: 23.44px;
+    letter-spacing: -0.03em;
+    color: #590E15;
+}
